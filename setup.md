@@ -1,6 +1,6 @@
 ## VS Code
 
-```
+```bash
 # Easy, turn easymotion on
 "vim.easymotion": true,
 # :help incsearch
