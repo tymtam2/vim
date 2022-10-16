@@ -1,4 +1,4 @@
-## VS Code
+## Example VS Code setup
 
 ```bash
 # Easy, turn easymotion on

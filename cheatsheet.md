@@ -3,6 +3,9 @@
 
 ^ - jump to the first non blank character in the line
 
+H, L - High/Low, move cursor to top/bottom of the screen
+
+
 ## Jobs
 
 1\. `ggVGy` - select all and copy, I came up with it myself, as a variation on `gg+=yG` which I didn't like or understand. 
