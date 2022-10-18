@@ -12,15 +12,15 @@
 
 I use the strategy shown below. The diagram tries to show preserve the position of the keys on a real keyboard. 
 
-```bash
-1  2  3  4  5  6  7  8  9  0   
- \  \ /  /  | /    \  \  \  \ 
-  |  |  |   /       |  |  |  |
-  a  s  d  f  g  h  j  k  l  ;      
-
-  li|ri|mi|in       in|mi|ri|li
-  tt|ng|dd|de       de|dd|ng|tt
-  le|  |le|x         x|le|  |le
+```vim
+`  1  2  3  4  5  6  7  8  9  0  -  +
+ \__\  \ /  /  | /    \  \  \  \ /_/ 
+     |  |  |   /       |  |  |  |
+     a  s  d  f  g  h  j  k  l  ;      
+   
+     li|ri|mi|in       in|mi|ri|li
+     tt|ng|dd|de       de|dd|ng|tt
+     le|  |le|x         x|le|  |le
 ```      
 
 ### Exercises
@@ -34,3 +34,4 @@ How long it took me to complete vimtutor
 
 0. \>1h
 1. 36 minutes
+2. 24 minutes

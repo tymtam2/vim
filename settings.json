@@ -1,0 +1,80 @@
+{
+    "FSharp.useSdkScripts": true,
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true
+    },
+    "notebook.output.textLineLimit": 500,
+    "vscode-pets.position": "explorer",
+    "explorer.confirmDragAndDrop": false,
+    "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "right"
+    },
+    "jupyter.askForKernelRestart": false,
+    "ipynb.experimental.pasteImages.enabled": true,
+    "editor.experimental.pasteActions.enabled": true,
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "vim.useCtrlKeys": false,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    // "vim.enableNeovim": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": [
+          "s"
+        ],
+        "after": [
+          "leader",
+          "leader",
+          "2",
+          "s"
+        ]
+      },
+      {
+        "before": [
+          "J"
+        ],
+        "after": [
+          "<C-F>"
+        ]
+      },
+      {
+        "before": [
+          "K"
+        ],
+        "after": [
+          "<C-B>"
+        ]
+      },
+      {
+        "before": [
+          "Q"
+        ],
+        "after": [
+          "<C-V>"
+        ]
+      }
+    ],
+    "vim.handleKeys": {
+      "<C-r>": true,
+    },
+    "vim.insertModeKeyBindingsNonRecursive": [
+      {
+        "before": [
+          "j",
+          "j"
+        ],
+        "after": [
+          "<ESC>",
+          "l"
+        ]
+      }
+    ],
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color":"rgba(250, 240, 170, 0.5)",
+    "vim.highlightedyank.duration": 800,
+  }
