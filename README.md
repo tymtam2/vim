@@ -17,7 +17,7 @@ I use the strategy shown below. The diagram tries to show preserve the position 
  \__\ /  /  /  | /    \  \  \  \ /_/ 
      |  |  |   /       |  |  |  |
      a  s  d  f  g  h  j  k  l  ;      
-    /   |  |  \       /   |  |  \
+    /   |  |   \      /   |  |   \
    li  ri  mi  in    in  mi  ri  li
    tt  ng  dd  de    de  dd  ng  tt
    le      le  x      x  le      le
