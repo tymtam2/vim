@@ -1,4 +1,4 @@
-# Vilcome
+# Vimcome
 
 ## Ispirations and resources
 
@@ -14,7 +14,7 @@ I use the strategy shown below. The diagram tries to show preserve the position 
 
 ```vim
 `  1  2  3  4  5  6  7  8  9  0  -  +
- \__\  \ /  /  | /    \  \  \  \ /_/ 
+ \__\ /  /  /  | /    \  \  \  \ /_/ 
      |  |  |   /       |  |  |  |
      a  s  d  f  g  h  j  k  l  ;      
    
