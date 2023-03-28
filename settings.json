@@ -17,7 +17,7 @@
   "editor.experimental.pasteActions.enabled": true,
   "editor.lineNumbers": "relative",
   "vim.easymotion": true,
-  "vim.useCtrlKeys": false,
+  "vim.useCtrlKeys": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
@@ -36,20 +36,44 @@
     },
     {
       "before": [
-        "J"
+        " "
       ],
       "after": [
-        "<C-F>"
+        "leader"
       ]
     },
     {
       "before": [
-        "K"
+        "<C-U>"
       ],
       "after": [
-        "<C-B>"
+        "<C-U>","z","z"
       ]
     },
+    {
+      "before": [
+        "<C-D>"
+      ],
+      "after": [
+        "<C-D>","z","z"
+      ]
+    },
+  //  {
+  //    "before": [
+  //      "J"
+  //    ],
+  //    "after": [
+  //      "<C-F>"
+  //    ]
+  //  },
+  //  {
+  //    "before": [
+  //      "K"
+  //    ],
+  //    "after": [
+  //      "<C-B>"
+  //    ]
+  //  },
     {
       "before": [
         "Q"
@@ -66,11 +90,10 @@
     {
       "before": [
         "j",
-        "j"
+        "k"
       ],
       "after": [
         "<ESC>",
-        "l"
       ]
     }
   ],
@@ -78,5 +101,17 @@
   "vim.highlightedyank.color":"rgba(250, 240, 170, 0.5)",
   "vim.highlightedyank.duration": 800,
   "editor.stickyScroll.enabled": true,
-  "editor.stickyScroll.maxLineCount": 5
+  "editor.stickyScroll.maxLineCount": 5,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "audioCues.terminalQuickFix": "on",
+  "git.openRepositoryInParentFolders": "never",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "diffEditor.maxComputationTime": 0,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 2
 }
