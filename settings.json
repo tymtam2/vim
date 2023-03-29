@@ -19,9 +19,20 @@
   "vim.easymotion": true,
   "vim.useCtrlKeys": true,
   "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
+  "vim.useSystemClipboard": false,
   "vim.hlsearch": true,
+  "vim.leader": "<space>",
   // "vim.enableNeovim": true,
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>","y"
+      ],
+      "after": [
+        "\"", "+", "y"
+      ],
+    },
+  ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
@@ -43,11 +54,33 @@
       ]
     },
     {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": [
+        "<leader>","y"
+      ],
+      "after": [
+        "\"", "+", "y"
+      ],
+    },
+    {
+      "before": [
+        "<leader>","Y"
+      ],
+      "after": [
+        "\"", "+", "Y"
+      ],
+    },
+    {
       "before": [
         "<C-U>"
       ],
       "after": [
-        "<C-U>","z","z"
+        "<C-U>",
+        "z",
+        "z"
       ]
     },
     {
@@ -55,25 +88,27 @@
         "<C-D>"
       ],
       "after": [
-        "<C-D>","z","z"
+        "<C-D>",
+        "z",
+        "z"
       ]
     },
-  //  {
-  //    "before": [
-  //      "J"
-  //    ],
-  //    "after": [
-  //      "<C-F>"
-  //    ]
-  //  },
-  //  {
-  //    "before": [
-  //      "K"
-  //    ],
-  //    "after": [
-  //      "<C-B>"
-  //    ]
-  //  },
+    //  {
+    //    "before": [
+    //      "J"
+    //    ],
+    //    "after": [
+    //      "<C-F>"
+    //    ]
+    //  },
+    //  {
+    //    "before": [
+    //      "K"
+    //    ],
+    //    "after": [
+    //      "<C-B>"
+    //    ]
+    //  },
     {
       "before": [
         "Q"
@@ -98,7 +133,7 @@
     }
   ],
   "vim.highlightedyank.enable": true,
-  "vim.highlightedyank.color":"rgba(250, 240, 170, 0.5)",
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
   "vim.highlightedyank.duration": 800,
   "editor.stickyScroll.enabled": true,
   "editor.stickyScroll.maxLineCount": 5,
@@ -112,6 +147,5 @@
     "editor.formatOnType": true
   },
   "diffEditor.maxComputationTime": 0,
-  "editor.minimap.enabled": false,
   "window.zoomLevel": 2
 }
